@@ -1,0 +1,187 @@
+body{
+    margin: 0px
+}
+
+#body-header{
+    height: 65vh;
+    opacity: 20.0;
+    background-image: url(cover.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+.horizontal-list{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+   font-family: 'Potta One', cursive;
+    
+}
+
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+
+.horizontal-list li a{
+    color:black;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.horizontal-list li a:hover{
+    color:gray;
+    /* border-bottom:  1px solid black; */
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+/* Name and social container */
+
+#name-social-container{
+    margin: 20vh;
+}
+
+#my-name{
+    font-size: 3em;
+    font-family: 'Potta One', cursive;
+    letter-spacing: 0.1rem;
+    color: black;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+
+}
+
+.social-icons li a i:hover{
+    
+    box-shadow: 0px 0px 6px 4px rgba(24, 1, 1, 0.3);
+}
+
+
+#about{
+    height: auto;
+    width: 100%;
+    /* position: relative; to make above other image */
+}
+
+#my-image{
+   height: 12rem;
+   width: 12rem;
+   margin: auto;
+   margin-top: -13vh;
+}
+
+#my-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%; /*to make image circular*/
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+
+section{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section:nth-child(2n){
+    background-color: white;
+}
+
+section:nth-child(2n+1){
+    background-color: white;
+}
+
+.mb75px{
+    margin-top: 75px;
+}
+
+.section-heading{
+    width: auto;
+    padding: 20px 10px 10px;
+    /* margin: 10px auto; */
+    font-weight: 400;
+}
+
+.section-heading span{
+    font-size: 40px;
+    color: black;
+    display: inline-block;
+    padding-top: 10px;
+    margin-right: 00.5rem;
+}
+
+.skills-display{
+    width: 70%;
+    height: 100px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap:  wrap;
+    justify-content: space-between;
+}
+
+.skills-progress{
+    width: 7rem;
+    height: 1.4rem;
+    background-color: lightgrey;
+    border-radius: 0.8rem;
+    border: 2px solid black;
+}
+
+.skill-name span{
+    color: white;
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+.skills-progress>div{
+    border-radius: 20px 0px 0px 20px;
+}
+
+.mb-blue{
+    background-color: #2857a4;
+}
+
+.eighty-five-percent{
+    width: 85%;
+    height: inherit;
+}
+
+.seventy-five-percent{
+    width: 75%;
+    height: inherit;
+}
+
+.mb-red{
+    background-color: red;
+}
